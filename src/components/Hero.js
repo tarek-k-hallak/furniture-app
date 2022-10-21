@@ -8,7 +8,7 @@ export default function Hero() {
     return (
         <section className='h-[650px] w-full bg-hero
                 bg-right bg-cover bg-no-repeat text-white 
-                pt-[200px] pb-[254px] relative mb-12
+                pt-[110px] pb-[254px] relative mb-12
                 lg:bg-center lg:mb-28 lg:pt-[145px]'>
             <div className="container mx-auto text-center max-w-[1100px]">
                 <h1 className='text-4xl mx-auto font-semibold mb-[25px]
@@ -20,7 +20,7 @@ export default function Hero() {
                     {subtitle}
                 </h2>
                 <button className='bg-[rgba(255,255,255,0.4)] hover:bg-[rgba(255,255,255,0.6)] 
-                        px-[35px] py-[9px] mb-[100px] text-xl rounded-md backdrop-blur-md transition
+                        px-[35px] py-[9px] mb-[70px] text-xl rounded-md backdrop-blur-md transition
                         lg:px-[80px] lg:py-[16px] lg:mb-[84px] md:mb-[140px]'>
                     {buttonText}
                 </button>
