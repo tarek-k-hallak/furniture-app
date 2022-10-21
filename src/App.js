@@ -1,9 +1,8 @@
-
 function App() {
   return (
-    <>
-      <h1>react with tailwind</h1>
-    </>
+    <h1 className="container">
+      react with tailwind 2
+    </h1>
   );
 }
 
