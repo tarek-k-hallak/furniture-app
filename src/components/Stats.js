@@ -4,7 +4,7 @@ import { stats } from '../data'
 
 export default function Stats() {
     return (
-        <div className='bg-accent rounded-[20px] p-8 '>
+        <div className='bg-accent rounded-[20px] p-5 lg:p-8'>
             <div className="flex flex-wrap gap-y-8">
                 {stats.map((item, index) => {
                     return (
@@ -15,7 +15,7 @@ export default function Stats() {
                             <div className='text-2xl font-semibold lg:text-4xl'>
                                 {item.value}
                             </div>
-                            <div className='text-base font-light '>
+                            <div className='text-base font-light w-[110px] sm:w-full  mx-auto'>
                                 {item.text}
                             </div>
                         </div>

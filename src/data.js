@@ -17,7 +17,7 @@ export const stats = [
     },
     {
         value: '10k+',
-        text: 'Furniture sold',
+        text: 'Furniture Sold',
     },
     {
         value: '260+',
