@@ -1,8 +1,11 @@
+import Hero from './components/Hero'
+
 function App() {
   return (
-    <h1 className="container">
-      react with tailwind 3
-    </h1>
+    <div className="mx-auto w-full max-w-[1240px]
+    bg-white font-primary">
+      <Hero />
+    </div>
   );
 }
 
