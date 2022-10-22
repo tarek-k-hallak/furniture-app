@@ -2,7 +2,7 @@ import React from 'react'
 import { features } from '../data'
 
 export default function Feature() {
-    const { image, title, subtitle, buttonText, items } = features
+    const { image, title, subtitle, items } = features
     return (
         <section className='container mx-auto mt-[120px]'>
             <div className="flex flex-col
