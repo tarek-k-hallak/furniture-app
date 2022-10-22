@@ -4,7 +4,9 @@ import { stats } from '../data'
 
 export default function Stats() {
     return (
-        <div className='bg-accent rounded-[20px] p-5 lg:p-8'>
+        <section className='text-center bg-accent rounded-[20px] p-5 
+            mt-[-120px] max-w-[1000px] mx-[15px]
+            lg:mx-auto xl:mt-[-40px] lg:mt-[-90px] lg:p-8' >
             <div className="flex flex-wrap gap-y-8">
                 {stats.map((item, index) => {
                     return (
@@ -22,6 +24,6 @@ export default function Stats() {
                     )
                 })}
             </div>
-        </div>
+        </section>
     )
 }

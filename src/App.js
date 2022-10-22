@@ -1,10 +1,16 @@
-import Hero from './components/Hero'
+import {
+  Hero,
+  Stats,
+  Feature
+} from './components'
 
 function App() {
   return (
     <div className="mx-auto w-full max-w-[1240px]
-    bg-white font-primary">
+        bg-white ">
       <Hero />
+      <Stats />
+      <Feature />
     </div>
   );
 }
